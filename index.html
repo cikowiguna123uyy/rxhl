@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RilzX7</title> 
+  <meta name="theme-color" content="black">
+  <link rel="icon" href="https://files.catbox.moe/x5m5ha.jpg">
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Roboto&family=Roboto+Mono&family=Exo+2&family=Josefin+Sans&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --white: #FFFFFF;
+    }
+
+    body, html {
+      margin: 0;
+      padding: 0;
+      background-color: black;
+      color: var(--white);
+      height: 100%;
+      overflow: hidden;
+      font-family: 'Courier New', Courier, monospace;
+      text-align: center;
+    }
+
+    .background-text {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 200px;
+      font-weight: bold;
+      color: rgba(255, 255, 255, 0.03); /* Putih transparan */
+      font-family: 'Courier New', Courier, monospace;
+      pointer-events: none;
+      user-select: none;
+      z-index: 0;
+    }
+
+    .container {
+      position: relative;
+      z-index: 1;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .profile-img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid white; /* Garis jadi PUTIH */
+      box-shadow: 0 0 20px white;
+      margin-bottom: 20px;
+    }
+
+    .big-text {
+      font-size: 36px;
+      font-weight: bold;
+      text-shadow: 0 0 10px #00ff00;
+    }
+
+    .small-text {
+      font-size: 20px;
+      opacity: 0.7;
+      margin-top: 10px;
+    }
+
+    marquee {
+      margin-top: 20px;
+      font-size: 18px;
+      color: red;
+      text-shadow: 0 0 5px red;
+    }
+
+    footer {
+      background-color: #111;
+      color: #888;
+      padding: 10px;
+      font-size: 14px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      z-index: 1;
+    }
+  </style>
+
+</head>
+
+<body onload="startClock();">
+
+  <!-- Teks Background -->
+  <div class="background-text">Hacked RilX7</div>
+
+  <!-- Konten Utama -->
+  <div class="container">
+    <img src="https://files.catbox.moe/x5m5ha.jpg" alt="Hacked Image" class="profile-img">
+    <div class="big-text">Hacked RilzX7</div>
+    <div class="small-text">Hi I'm RilzX7, I Have Hacked Your Site,</div>
+    <br><br>
+    <div class="small-text" style="color: red;">“Dear Admins”</div>
+    <div class="small-text">Upgrade your website security so it's not easy for me to hack it lol</div>
+
+    <marquee behavior="scroll" direction="left">Hacked By RilzX7</marquee>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    &copy; RilzX7 | RilzXploit
+  </footer>
+
+  <!-- Audio -->
+  <audio autoplay loop hidden>
+    <source src="https://files.catbox.moe/b4o3wg.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+
+  <script>
+    function startClock() {
+      // buat nambah jam realtime kalau mau
+    }
+  </script>
+
+</body>
+</html>
